@@ -17,6 +17,7 @@
 		A85B719629FE732E00F33669 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85B719529FE732E00F33669 /* RegisterViewController.swift */; };
 		A85B719829FE735600F33669 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85B719729FE735600F33669 /* LoginViewController.swift */; };
 		A85B719A29FE739A00F33669 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85B719929FE739A00F33669 /* ChatViewController.swift */; };
+		A8F1A9B029FEE416000AB19D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A8F1A9AF29FEE415000AB19D /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		A85B719529FE732E00F33669 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		A85B719729FE735600F33669 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		A85B719929FE739A00F33669 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		A8F1A9AF29FEE415000AB19D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D2C58876AF158C2E73985AC6 /* Pods-Firebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase.release.xcconfig"; path = "Target Support Files/Pods-Firebase/Pods-Firebase.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,7 +56,6 @@
 				4C0DBA45FA46B61130025464 /* Pods-Firebase.debug.xcconfig */,
 				D2C58876AF158C2E73985AC6 /* Pods-Firebase.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -87,6 +88,7 @@
 				A85B718829FE70B800F33669 /* Assets.xcassets */,
 				A85B718A29FE70B900F33669 /* LaunchScreen.storyboard */,
 				A85B718D29FE70B900F33669 /* Info.plist */,
+				A8F1A9AF29FEE415000AB19D /* GoogleService-Info.plist */,
 			);
 			path = Firebase;
 			sourceTree = "<group>";
@@ -186,6 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A85B718C29FE70B900F33669 /* LaunchScreen.storyboard in Resources */,
+				A8F1A9B029FEE416000AB19D /* GoogleService-Info.plist in Resources */,
 				A85B718929FE70B800F33669 /* Assets.xcassets in Resources */,
 				A85B718729FE70B400F33669 /* Main.storyboard in Resources */,
 			);
@@ -405,7 +408,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.lonewolfnadhu.Firebase;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lonewolfnadhu.firebase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -433,7 +436,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.lonewolfnadhu.Firebase;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lonewolfnadhu.firebase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
