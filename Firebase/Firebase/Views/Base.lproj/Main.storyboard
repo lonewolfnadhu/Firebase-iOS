@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="⚡️FlashChat" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KeH-be-UZj">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="⚡️FlashChat" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KeH-be-UZj" customClass="CLTypingLabel" customModule="CLTypingLabel">
                                 <rect key="frame" x="20" y="381" width="335" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="JMf-9n-v8E"/>
@@ -157,7 +157,7 @@
         <scene sceneID="hV0-TR-rS5">
             <objects>
                 <viewController id="qaF-Gc-rTO" customClass="ChatViewController" customModule="Firebase" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="VGM-ix-iNj">
+                    <view key="view" contentMode="scaleToFill" id="VGM-ix-iNj">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -321,6 +321,11 @@
             <point key="canvasLocation" x="-7.2000000000000002" y="-209.11330049261085"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="KeH-be-UZj">
+            <size key="intrinsicContentSize" width="307.33333333333331" height="60"/>
+        </designable>
+    </designables>
     <inferredMetricsTieBreakers>
         <segue reference="L1B-N3-P6D"/>
     </inferredMetricsTieBreakers>
