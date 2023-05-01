@@ -16,33 +16,32 @@ class WelcomeViewController: UIViewController {
         super.viewDidLoad()
         
         titleLabel.text = "⚡️FlashChat"
-        
-//        flashLabelAnimation()
+        //        flashLabelAnimation()
     }
     
-//    func flashLabelAnimation(){
-//        titleLabel.text = ""
-//        var charIndex = 0.0
-//        let titleText = "⚡️FlashChat"
-//        for letter in titleText {
-//            print("-")
-//            print(0.1 * charIndex)
-//            print(letter)
-//
-//            Timer.scheduledTimer(withTimeInterval: 0.1 * charIndex, repeats: false) { (Timer) in
-//                self.titleLabel.text?.append(letter)
-//            }
-//            charIndex += 1
-//        }
-//    }
-    
     @IBAction func registerPressed(_ sender: UIButton) {
-        performSegue(withIdentifier: "goToRegisterVC", sender: self)
         //        print("Register Pressed!")
+        performSegue(withIdentifier: "goToRegisterVC", sender: self)
     }
     
     @IBAction func loginPressed(_ sender: UIButton) {
-        performSegue(withIdentifier: "goToLoginVC", sender: self)
         //        print("Login Pressed!")
+        performSegue(withIdentifier: "goToLoginVC", sender: self)
     }
+    
+    //    func flashLabelAnimation(){
+    //        titleLabel.text = ""
+    //        var charIndex = 0.0
+    //        let titleText = "⚡️FlashChat"
+    //        for letter in titleText {
+    //            print("-")
+    //            print(0.1 * charIndex)
+    //            print(letter)
+    //
+    //            Timer.scheduledTimer(withTimeInterval: 0.1 * charIndex, repeats: false) { (Timer) in
+    //                self.titleLabel.text?.append(letter)
+    //            }
+    //            charIndex += 1
+    //        }
+    //    }
 }
