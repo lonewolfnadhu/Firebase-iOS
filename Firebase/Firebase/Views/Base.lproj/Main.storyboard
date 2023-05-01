@@ -94,7 +94,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="XSu-6F-0M2">
                                 <rect key="frame" x="30" y="111" width="315" height="190"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Email" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Uny-fO-yGN">
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Uny-fO-yGN">
                                         <rect key="frame" x="0.0" y="0.0" width="315" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="ul2-Bq-PQZ"/>
@@ -103,14 +103,14 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Password" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Bd0-cK-uXe">
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Bd0-cK-uXe">
                                         <rect key="frame" x="0.0" y="70" width="315" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="iqa-X4-vnA"/>
                                         </constraints>
                                         <color key="textColor" name="BrandBlue"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HfZ-Ys-GqN">
                                         <rect key="frame" x="0.0" y="140" width="315" height="50"/>
@@ -322,12 +322,10 @@
         </scene>
     </scenes>
     <designables>
-        <designable name="KeH-be-UZj">
-            <size key="intrinsicContentSize" width="307.33333333333331" height="60"/>
-        </designable>
+        <designable name="KeH-be-UZj"/>
     </designables>
     <inferredMetricsTieBreakers>
-        <segue reference="L1B-N3-P6D"/>
+        <segue reference="WCY-vw-nfj"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="paperplane.fill" catalog="system" width="128" height="119"/>
