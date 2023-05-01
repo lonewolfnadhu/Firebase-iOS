@@ -14,7 +14,7 @@ class ChatViewController: UIViewController {
     @IBOutlet weak var messageTextfield: UITextField!
     
     override func viewDidLoad() {
-        title = "⚡️FlashChat"
+        title = K.appName
         navigationItem.hidesBackButton = true
     }
     
@@ -25,11 +25,11 @@ class ChatViewController: UIViewController {
         let firebaseAuth = Auth.auth()
         
         do {
-            print("Firebase SignOut (Success)!")
+            print(K.firebase + K.signOut + K.success)
             try firebaseAuth.signOut()
             navigationController?.popToRootViewController(animated: true)
         } catch let signOutError as NSError {
-            print("Firebase SignOut (Error):", signOutError.localizedDescription)
+            print(K.firebase + K.signOut + K.error + signOutError.localizedDescription)
         }
     }
 }

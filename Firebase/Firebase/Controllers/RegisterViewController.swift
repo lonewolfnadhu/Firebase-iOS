@@ -20,10 +20,10 @@ class RegisterViewController: UIViewController {
         if let email = emailTextfield.text, let password = passwordTextfield.text {
             Auth.auth().createUser(withEmail: email, password: password) { authResult, error in
                 if let registerError = error {
-                    print("Firebase Register (Error):", registerError.localizedDescription)
+                    print(K.firebase + K.register + K.error + registerError.localizedDescription)
                 } else {
-                    print("Firebase Register (Success)!")
-                    self.performSegue(withIdentifier: "RegisterToChat", sender: self)
+                    print(K.firebase + K.register + K.success)
+                    self.performSegue(withIdentifier: K.registerSegue, sender: self)
                 }
             }
         }

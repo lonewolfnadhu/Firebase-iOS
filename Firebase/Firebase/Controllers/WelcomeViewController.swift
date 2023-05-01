@@ -15,18 +15,7 @@ class WelcomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        titleLabel.text = "⚡️FlashChat"
-        //        flashLabelAnimation()
-    }
-    
-    @IBAction func registerPressed(_ sender: UIButton) {
-        //        print("Register Pressed!")
-        performSegue(withIdentifier: "goToRegisterVC", sender: self)
-    }
-    
-    @IBAction func loginPressed(_ sender: UIButton) {
-        //        print("Login Pressed!")
-        performSegue(withIdentifier: "goToLoginVC", sender: self)
+        titleLabel.text = K.appName
     }
     
     //    func flashLabelAnimation(){

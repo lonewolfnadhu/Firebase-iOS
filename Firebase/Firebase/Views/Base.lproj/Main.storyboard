@@ -38,7 +38,7 @@
                                             <color key="baseForegroundColor" name="BrandBlue"/>
                                         </buttonConfiguration>
                                         <connections>
-                                            <action selector="registerPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Psy-M8-flp"/>
+                                            <segue destination="4zJ-O3-lyz" kind="show" id="TjH-oJ-sTD"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tqt-lJ-ATz">
@@ -54,7 +54,7 @@
                                             <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                         <connections>
-                                            <action selector="loginPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EXR-X4-Ddg"/>
+                                            <segue destination="Ngh-I4-Xz2" kind="show" id="Eqb-mB-pEW"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -75,8 +75,6 @@
                     <navigationItem key="navigationItem" id="aH2-os-hxv"/>
                     <connections>
                         <outlet property="titleLabel" destination="KeH-be-UZj" id="uUk-yM-Woq"/>
-                        <segue destination="4zJ-O3-lyz" kind="show" identifier="goToRegisterVC" id="Lk3-i8-kUm"/>
-                        <segue destination="Ngh-I4-Xz2" kind="show" identifier="goToLoginVC" id="C59-8n-lp3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -323,7 +321,6 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="TOM-1S-Sao" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="WWC-mQ-jfG">
-                        <rect key="frame" x="0.0" y="47" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>

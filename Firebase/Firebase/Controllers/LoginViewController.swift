@@ -20,10 +20,10 @@ class LoginViewController: UIViewController {
         if let email = emailTextfield.text, let password = passwordTextfield.text {
             Auth.auth().signIn(withEmail: email, password: password) { authResult, error in
                 if let signInError = error {
-                    print("Firebase SignIn (Error):", signInError.localizedDescription)
+                    print(K.firebase + K.signIn + K.error + signInError.localizedDescription)
                 } else {
-                    print("Firebase SignIn (Success)!")
-                    self.performSegue(withIdentifier: "LoginToChat", sender: self)
+                    print(K.firebase + K.signIn + K.success)
+                    self.performSegue(withIdentifier: K.loginSegue, sender: self)
                 }
             }
         }
