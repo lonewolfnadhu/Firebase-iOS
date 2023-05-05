@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		6F65703871894BE0A02E1B6F /* Pods_Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A07314C93E1F44CECC6F57C /* Pods_Firebase.framework */; };
 		A84D74472A050A6800FFB98F /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84D74462A050A6800FFB98F /* Message.swift */; };
+		A84D744A2A050B0900FFB98F /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84D74482A050B0900FFB98F /* MessageCell.swift */; };
+		A84D744B2A050B0900FFB98F /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A84D74492A050B0900FFB98F /* MessageCell.xib */; };
 		A85B718029FE70B400F33669 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85B717F29FE70B400F33669 /* AppDelegate.swift */; };
 		A85B718229FE70B400F33669 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85B718129FE70B400F33669 /* SceneDelegate.swift */; };
 		A85B718729FE70B400F33669 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A85B718529FE70B400F33669 /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 		4C0DBA45FA46B61130025464 /* Pods-Firebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase.debug.xcconfig"; path = "Target Support Files/Pods-Firebase/Pods-Firebase.debug.xcconfig"; sourceTree = "<group>"; };
 		6A07314C93E1F44CECC6F57C /* Pods_Firebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Firebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A84D74462A050A6800FFB98F /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		A84D74482A050B0900FFB98F /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		A84D74492A050B0900FFB98F /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
 		A85B717C29FE70B400F33669 /* Firebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Firebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A85B717F29FE70B400F33669 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A85B718129FE70B400F33669 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -121,6 +125,8 @@
 			isa = PBXGroup;
 			children = (
 				A85B718529FE70B400F33669 /* Main.storyboard */,
+				A84D74482A050B0900FFB98F /* MessageCell.swift */,
+				A84D74492A050B0900FFB98F /* MessageCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -193,6 +199,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A84D744B2A050B0900FFB98F /* MessageCell.xib in Resources */,
 				A85B718C29FE70B900F33669 /* LaunchScreen.storyboard in Resources */,
 				A8F1A9B029FEE416000AB19D /* GoogleService-Info.plist in Resources */,
 				A85B718929FE70B800F33669 /* Assets.xcassets in Resources */,
@@ -257,6 +264,7 @@
 				A84D74472A050A6800FFB98F /* Message.swift in Sources */,
 				A85B718029FE70B400F33669 /* AppDelegate.swift in Sources */,
 				A85B718229FE70B400F33669 /* SceneDelegate.swift in Sources */,
+				A84D744A2A050B0900FFB98F /* MessageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
